@@ -1,0 +1,2 @@
+class KeyIngredient < ApplicationRecord
+end
