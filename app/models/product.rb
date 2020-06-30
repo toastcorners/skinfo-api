@@ -1,13 +1,5 @@
-class Api::V1::ProductsController < ApplicationController
+class Product < ApplicationRecord
+has_many :product_ingredients
+has_many :key_ingredients, through: :product_ingredients
 
-    def index 
-        products = Product.all
-        render json: products
-    end
-
-    def show
-        product = Product.find(params[:id])
-        render json: product
-    end 
-    
 end
