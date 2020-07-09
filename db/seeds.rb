@@ -29,17 +29,17 @@ product_type: "Cleanser", benefits: "Enlarged Pores, Blemishes", likes: 0, img_u
 
 sundayriley = Product.create(
 brand: "Sunday Riley", name: "Blue Moon Tranquility Cleansing Balm", description: "Take it all off with Sunday Riley Blue Moon Clean-Rinse Cleansing Balm (Formerly 'Blue Moon Tranquility Cleansing Balm'). The blue cleanser starts out as a solid balm but quickly transforms to a liquid, milk-like consistency. The oil-infused formula lifts makeup and impurities and gently washes them away. Ideal for dry and normal skin alike, this gentle balm strips away all the daily dirt, grime, makeup and gunk without disrupting your skin's natural oils. Tested safe to use on eyes, it even removes stubborn waterproof formulas. Need another reason to love it? It doubles as a hydrating face mask! Leave on for 20 minutes and reveal plump, dewy, soft skin. ", 
-product_type: "Cleanser", benefits: "Irritation, Dryness, Fine Lines and Wrinkles", likes: 0, img_url: "https://images-na.ssl-images-amazon.com/images/I/41aU5-3hf8L.jpg"
+product_type: "Cleanser", benefits: "Irritation, Dryness, Fine Lines and Wrinkles", likes: 0, img_url: "https://media.dermstore.com/catalog/502043/800x800/65714.jpg"
 )
 
 boscia = Product.create(
 brand: "Boscia", name: "Charcoal Deep-Pore Exfoliating Peel Gel with Volcanic Sand", description: "Smooth, brighten, and thoroughly detoxify skin with a lightweight, three-way charcoal peel gel infused with volcanic sand delivering gentle exfoliation for deeper, more effective results. This triple-threat peeling gel works in three ways: as a physical peel to visibly sweep away dead skin cells, as a chemical peel to penetrate deep into skin for in-depth exfoliation, and as a treatment to promote a younger-looking, healthy complexion.", 
-product_type: "Peel", benefits: "Enlarged Pores, Blemishes, Dark Spots", likes: 0, img_url: "https://images-na.ssl-images-amazon.com/images/I/31KirSb0hNL.jpg"
+product_type: "Peel", benefits: "Enlarged Pores, Blemishes, Dark Spots", likes: 0, img_url: "https://www.boscia.com/shop/images/products/269L.jpg"
 )
 
 babyfacial = Product.create(
 brand: "Drunk Elephant", name: "T.L.C. Sukari Babyfacial™", description: "Babyfacial™ is a pro-quality AHA/BHA “facial” that resurfaces to reveal greater clarity, improved skin texture and tone, and a more youthful radiance. Think of it as an extra nudge for stubborn, dull skin (in other words, it’ll knock your cells off). This next-generation mask is an at-home “facial” that effectively yet gently exfoliates the pore lining and resurfaces by getting rid of built-up dead skin cells. With a whopping 25% AHA / 2% BHA blend of our dream team glycolic, tartaric, lactic, citric and salicylic acids, this pro-quality formula dramatically smooths texture while minimizing the look of pores, fine lines and wrinkles. Uniquely formulated with chickpea flour, pumpkin ferment and a soothing antioxidant blend of matchatea, milk thistle and apple, Babyfacial™ delivers incredible brightening and enzymatic action, improves skin’s elastic feel and reveals the look of a more even, radiant baby-soft complexion.", 
-product_type: "Peel", benefits: "Dark Spots, Fine Lines and Wrinkles, Dullness, Uneven Texture", likes: 0, img_url: "https://images-na.ssl-images-amazon.com/images/I/31CeFVrk4tL.jpg"
+product_type: "Peel", benefits: "Dark Spots, Fine Lines and Wrinkles, Dullness, Uneven Texture", likes: 0, img_url: "https://media1.popsugar-assets.com/files/thumbor/NWggi8mVo5CfWPz0abNDpHj5HxU/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/11/07/911/n/1922153/d0047b694d156a67_babyfacial/i/Drunk-Elephant-TLC-Sukari-Babyfacial.jpeg"
 )
 
 indielee = Product.create(
@@ -54,7 +54,7 @@ product_type: "Peel", benefits: "Enlarged Pores, Blemishes", likes: 0, img_url: 
 
 pineapplemask = Product.create(
 brand: "HERBIVORE", name: "Organic Brighten Pineapple + Gemstone Mask", description: "Herbivore Botanicals Brighten Pineapple + Gemstone Mask naturally brightens skin and illuminates your complexion with a unique blend of Brazilian tourmaline gemstone and pineapple enzymes. Gentle fruit enzymes power this exfoliating face mask, while rice powder softens and smooths skin texture. Its warming effect helps to increase circulation and deliver more vibrant skin.", 
-product_type: "Mask", benefits: "Dullness, Uneven Texture, Enlarged Pores, Uneven Tone", likes: 0, img_url: "https://images-na.ssl-images-amazon.com/images/I/41c9EvElfjL.jpg"
+product_type: "Mask", benefits: "Dullness, Uneven Texture, Enlarged Pores, Uneven Tone", likes: 0, img_url: "https://media.dermstore.com/catalog/504214/800x800/67891.jpg"
 )
 
 prism = Product.create(
@@ -74,7 +74,7 @@ product_type: "Mask", benefits: "Dryness, Dullness, Uneven Texture, Fine Lines a
 
 moonfruit = Product.create(
 brand: "HERBIVORE", name: "Moon Fruit Superfruit Night Treatment", description: "An other worldly multi-tasking night treatment that feeds skin with super fruits, gently resurfaces with fruit enzymes and hydrates deeply with a blend of exotic butters and bio-identical vegan Hyaluronic Acid all while you sleep. Truly Natural. Everything we create contains the finest all-natural ingredients, with an emphasis on ingredients that are plant-based, organic, and food-grade. Each ingredient is included for a therapeutic reason.", 
-product_type: "Mask", benefits: "Anti-aging, Dryness, Uneven Texture, Blemishes", likes: 0, img_url: "https://cdn.shopify.com/s/files/1/0067/3362/products/Herbivore-Moon_Fruit_Superfruit_Night_Treatment-2oz.jpg?v=1503608243"
+product_type: "Mask", benefits: "Anti-aging, Dryness, Uneven Texture, Blemishes", likes: 0, img_url: "https://media.dermstore.com/catalog/504214/800x800/73220.jpg"
 )
 
 lala = Product.create(
@@ -97,10 +97,37 @@ brand: "Indie Lee", name: "CoQ-10 Toner", description: "Hydrate and rebalance th
 product_type: "Toner", benefits: "Dark Spots, Fine Lines and Wrinkles, Enlarged Pores, Loss of Firmness", likes: 0, img_url: "https://media.dermstore.com/catalog/502733/800x800/52985.jpg"
 )
 
+renglowtoner = Product.create(
+brand: "REN", name: "Ready Steady Glow Daily AHA Tonic", description: "Keep your skin looking healthy and clean with REN's Ready Steady Glow Daily AHA Tonic. Designed to easily alleviate fine lines, acne, visible pores and dehydrated skin, this skin toner is powered by lactic and azelaic acid that balance skin tone and brighten the appearance of dark spots.", 
+product_type: "Toner", benefits: "Blemishes, Dryness, Dark Spots, Fine Lines and Wrinkles, Enlarged Pores, Loss of Firmness", likes: 0, img_url: "https://media.dermstore.com/catalog/501846/800x800/74411.jpg"
+)
+
 renew = Product.create(
 brand: "SkinCeuticals", name: "Renew Overnight Dry", description: "Ideal for normal or dry skin, this nighttime skin-refining moisturizer contains a 10% hydroxy acid blend to gently exfoliate the skin for a healthier appearance. Formulated with extracts of aloe, chamomile, evening primrose oil, and comfrey, Renew Overnight Dry helps to restore a radiant complexion and diminish the appearance of fine lines, wrinkles, and other signs of premature aging.", 
 product_type: "Moisturizer", benefits: "Dryness, Dark Spots, Loss of Firmness, Fine Lines and Wrinkles", likes: 0, img_url: "https://media.dermstore.com/catalog/100113/800x800/1339.jpg"
 )
+
+naturabisse = Product.create(
+brand: "Natura Bisse", name: "Glyco Extreme Peel", description: "Reveal firm and luminous skin with Glyco Extreme Peel by Natura Bisse. Crafted with 5 different alpha-hydroxy acids, this at-home exfoliator melts away dead skin cells and impurities, revealing healthier-looking skin.", 
+product_type: "Serum", benefits: "Dryness, Dark Spots, Loss of Firmness, Fine Lines and Wrinkles, Blemishes, Englarged Pores", likes: 0, img_url: "https://media.dermstore.com/catalog/504863/800x800/73341.jpg"
+)
+
+goodgenes = Product.create(
+brand: "Sunday Riley", name: "Good Genes", description: "Achieve smoother and more radiant-looking skin with Sunday Riley Good Genes All-In-One Lactic Acid Treatment. Gentle enough for various skin types, this anti-aging treatment is formulated with purified grade lactic acid that works to clear skin and produce natural collagen. Ingredients like licorice, lemongrass and aloe help you achieve an even complexion while reducing the appearance of fine lines and wrinkles.", 
+product_type: "Serum", benefits: "Dark Spots, Loss of Firmness, Fine Lines and Wrinkles, Englarged Pores", likes: 0, img_url: "https://media.dermstore.com/catalog/502043/800x800/69285.jpg"
+)
+
+jvargas = Product.create(
+brand: "Joanna Vargas", name: "Rescue Serum", description: "Reveal fresher, healthier-looking skin with help from Rescue Serum from Joanna Vargas. Designed with dynamic vitamin C, this anti-aging serum easily reduces the appearance of persistent wrinkles, discoloration, free radical damage and sun damage.", 
+product_type: "Serum", benefits: "Dark Spots, Loss of Firmness, Fine Lines and Wrinkles", likes: 0, img_url: "https://media.dermstore.com/catalog/502745/800x800/73130.jpg"
+)
+
+vinosource = Product.create(
+brand: "Caudalie", name: "Vinosource Deep Hydrating/Moisturizing Serum", description: "Perfect for when you need to combat dryness, Vinosource Deep Hydrating/Moisturizing Serum (formerly S.O.S Thirst-Quenching Serum) is a highly concentrated formula that restores moisture balance. Oil- and fragrance-free, this face serum is powered by organic grape water that prevents water loss and is clinically proven to increase hydration by 127%.", 
+product_type: "Serum", benefits: "Dryness", likes: 0, img_url: "https://media.dermstore.com/catalog/505407/800x800/76058.jpg"
+)
+
+
 
 #Ingredients
 greentea = KeyIngredient.create(
@@ -216,6 +243,15 @@ name: "Green Fusion Complex", properties: "Antiseptic, Oil reducer", description
  )
 crosspolymer = KeyIngredient.create(
 name: "Sodium Hyaluronate Crosspolymer", properties: "Hydrating, Anti aging", description: "Has a smaller molecular weight than hyaluronic acid and can deeply penetrate skin, delivering excellent hydration and reducing the appearance of fine lines and wrinkles."
+ )
+azelaicacid = KeyIngredient.create(
+name: "Azelaic Acid", properties: "Brightening, Exfoliating", description: "Azelaic acid is a natural substance produced by a yeast that lives on our skin for the specific purpose of fighting bacteria to keep our bodies healthy. It's a powerful treatment for mild to moderate acne and reduces inflammation by balancing the ecosystem of our complexion. Azelaic acid's strength is in its ability to actually reduce the growth of bacteria inside hair follicles in your skin. In doing so, it minimizes both current and future blemishes (which are essentially clogged follicles and pores infected by bacteria)."
+ )
+salicylicacid = KeyIngredient.create(
+name: "Salicylic Acid", properties: "Increases cell turnover, ", description: "Salicylic acid is legendary for its ability to minimize complexion concerns like acne, psoriasis, keratosis pilaris and rosacea while addressing common concerns like enlarged pores, oiliness and blackheads without drying out your skin. A beta hydroxy acid (BHA) derived from willowbark, salicylic acid works its magic by increasing the cellular turnover rate. This leads to faster skin renewal and fewer clogged pores, which is the primary cause of breakouts, irritations and skin condition flare-ups."
+ )
+ ricepowder = KeyIngredient.create(
+name: "Rice Powder", properties: "Brightening, Exfoliating", description: "Brightens, softens, and smooths skin’s complexion."
  )
 
  #Study
@@ -374,6 +410,24 @@ name: "Sodium Hyaluronate Crosspolymer", properties: "Hydrating, Anti aging", de
  )
  moringasrc = Study.create(
     source: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5146848/", key_ingredient_id: moringa.id
+ )
+azelaicsrc = Study.create(
+    source: "https://practicaldermatology.com/articles/2013-mar/new-insights-into-azelaic-acid/pdf", key_ingredient_id: azelaicacid.id
+ )
+ azelaicsrc2 = Study.create(
+    source: "https://pubmed.ncbi.nlm.nih.gov/1712709/", key_ingredient_id: azelaicacid.id
+ )
+ azelaicsrc3 = Study.create(
+    source: "https://pubmed.ncbi.nlm.nih.gov/2528257/", key_ingredient_id: azelaicacid.id
+ )
+ azelaicsrc4 = Study.create(
+    source: "https://jddonline.com/articles/dermatology/S1545961615P0964X", key_ingredient_id: azelaicacid.id
+ )
+salicylicsrc = Study.create(
+    source: "https://www.tandfonline.com/doi/abs/10.3109/09546639609089537", key_ingredient_id: salicylicacid.id
+ )
+ salicylicsrc2 = Study.create(
+    source: "https://pubmed.ncbi.nlm.nih.gov/1535287/", key_ingredient_id: salicylicacid.id
  )
 
 #Product_Ingredients
@@ -566,8 +620,51 @@ renew_ing5 = ProductIngredient.create!(
 renew_ing6 = ProductIngredient.create!(
     product_id: renew.id, key_ingredient_id: alphahydroxy.id,
 )
+naturabisse_ing = ProductIngredient.create(
+    product_id: naturabisse.id, key_ingredient_id: aloe.id,
+)
+naturabisse_ing2 = ProductIngredient.create(
+    product_id: naturabisse.id, key_ingredient_id: glycolic.id,
+)
+naturabisse_ing3 = ProductIngredient.create(
+    product_id: naturabisse.id, key_ingredient_id: malicacid.id,
+)
+naturabisse_ing4 = ProductIngredient.create(
+    product_id: naturabisse.id, key_ingredient_id: castoroil.id,
+)
+goodgenes_ing = ProductIngredient.create(
+    product_id: goodgenes.id, key_ingredient_id: glycolic.id,
+)
+goodgenes_ing2 = ProductIngredient.create(
+    product_id: goodgenes.id, key_ingredient_id: aloe.id,
+)
+goodgenes_ing3 = ProductIngredient.create(
+    product_id: goodgenes.id, key_ingredient_id: licorice.id,
+)
+jvargas_ing = ProductIngredient.create(
+    product_id: jvargas.id, key_ingredient_id: vitaminc.id,
+)
+vinosource_ing = ProductIngredient.create(
+    product_id: vinosource.id, key_ingredient_id: hyaluronicacid.id,
+)
+vinosource_ing2 = ProductIngredient.create(
+    product_id: vinosource.id, key_ingredient_id: vitaminc.id,
+)
+renglowtoner_ing = ProductIngredient.create(
+    product_id: renglowtoner.id, key_ingredient_id: vitaminc.id,
+)
+renglowtoner_ing2 = ProductIngredient.create(
+    product_id: renglowtoner.id, key_ingredient_id: lacticacid.id,
+)
+renglowtoner_ing2 = ProductIngredient.create(
+    product_id: renglowtoner.id, key_ingredient_id: azelaicacid.id,
+)
+renglowtoner_ing3 = ProductIngredient.create(
+    product_id: renglowtoner.id, key_ingredient_id: salicylicacid.id,
+)
 # name = ProductIngredient.create(
 #     product_id: , key_ingredient_id: ,
 # )
+
 
 

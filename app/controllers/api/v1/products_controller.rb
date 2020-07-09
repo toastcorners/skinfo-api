@@ -2,7 +2,7 @@ class Api::V1::ProductsController < ApplicationController
 
     def index 
         products = Product.all
-        render json: products
+        render json: products, include: [:key_ingredients]
     end
 
     def show
