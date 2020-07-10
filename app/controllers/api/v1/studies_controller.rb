@@ -1,4 +1,4 @@
-class Api::V1::StudiesControllerController < ApplicationController
+class Api::V1::StudiesController < ApplicationController
 
     def index 
         studies = Study.all

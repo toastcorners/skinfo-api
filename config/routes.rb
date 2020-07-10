@@ -6,6 +6,8 @@ Rails.application.routes.draw do
       resources :key_ingredients
           resources :product_ingredients
           resources :studies
+      resources :product_comments
+      resources :users
     end
   end
 end
