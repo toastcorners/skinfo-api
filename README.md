@@ -7,7 +7,11 @@ skinfo is a simple web app for learning about popular skin care products and exp
 To run this repo locally, you will need to do the following:
 
 1.) clone down this repo
+
 2.) bundle install 
+
 3.) run 'rails db:seed'
+
 4.) run 'rails s' to start the back end server
+
 5.) clone the repo for the front end and follow the instructions listed here: https://github.com/toastcorners/skinfo-client
